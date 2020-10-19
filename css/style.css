@@ -1,9 +1,67 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
+    font-size: 62.5% !important;
 }
 
-.promotions-container {}
+
+/****  PROMOTIONS  ****/
+
+.promotions-container .col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.site-wide-promo {
+    font-size: 1rem;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding: 0.5rem 1.5rem;
+    background-color: #eec802;
+    border-color: #eec802;
+}
+
+.site-wide-promo strong {
+    font-size: 1.1rem;
+    margin: 0px 0.3rem 0px 0px;
+}
+
+
+/****  NAVBAR    ****/
+
+.navpromo-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 1.2rem;
+}
+
+.navbar .navbar-toggler {
+    border: 0px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+#navbarNavDropdown {
+    opacity: 0.8;
+}
 
 
 /****  CALLOUT  ****/
@@ -21,6 +79,15 @@ body {
     position: relative;
 }
 
+.callout strong {
+    color: #856404;
+    background-color: #eec802;
+    border-color: #eec802;
+    font-weight: bold;
+    padding: 0.3rem 0.6rem;
+    /* margin: 0.5rem 0px 0px 1; */
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0px;
@@ -28,6 +95,34 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/****  JUMBOTRON  ****/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white !important;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.jumbotron .lead {
+    margin: 2.5rem 0px;
+    color: #a7a7a7;
+}
+
+.disclaimer {    
+    margin: 0.5rem 0px;
+}
+
+.jumbotron small {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #d0d0d0;
 }
 
 
@@ -63,40 +158,12 @@ body {
 }
 
 
-/****  JUMBOTRON  ****/
-
-.jumbotron {
-    background-color: transparent;
-}
-
-.jumbotron-header {
-    color: white !important;
-    font-weight: bold;
-    margin-bottom: 3rem;
-}
-
-.jumbotron .lead {
-    margin: 2.5rem 0px;
-    color: #a7a7a7;
-}
-
-.disclaimer {    
-    margin: 0.5rem 0px;
-}
-
-.jumbotron small {
-    font-size: 0.7rem;
-    font-style: italic;
-    color: #d0d0d0;
-}
-
-
 /****  BUTTONS  ****/
 
 .btn--cta {
     font-weight: bold;
     border-radius: 2.3rem;
-    width: 10rem;
+    width: 11rem;
 }
 
 .btn--red {

@@ -11,203 +11,201 @@
     </head>
 
     <body>
-        <!--  NAVBAR  -->
-        <nav class="navbar navbar-light bg-light navbar-expand-sm">
-            <a href="/" class="navbar-brand">Whiskey Drop</a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2">
-                        <a href="/" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a href="/about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="#" class="dropdown-item">Irish</a>
-                            <a href="#" class="dropdown-item">Scotch</a>
-                            <a href="#" class="dropdown-item">Japanese</a>
-                            <a href="#" class="dropdown-item">American</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mr-2 d-block d-sm-none">
-                        <a href="/login" class="nav-link">Sign-In / Sign-Up</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i>Great Whiskey delivered to your door!</i></p>
-                <a href="/login">Sign-In / Sign-Up</a>
-            </div>
-        </nav>
-        <!--  /NAVBAR  -->
-
-        <!--  LANDING PAGE  -->
-        <!-- <article class="container mt-3"> -->
+        <div class="container-fluid navpromo-container">
             <!-- PROMOTIONS -->
-            <!-- <div class="container-fluid promotions-container"> -->
-                <!-- <div class="row d-none d-sm-block"> -->
-                    <!-- <div class="col-12"> -->
-                        <!-- <div class="alert alert-warning"> -->
-                            <!-- <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="/">See here for details!</a> -->
-                        <!-- </div> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div> -->
-            <!-- /PROMOTIONS -->
-
-            <!-- CALLOUT -->
-            <div class="container-fluid callout-container">
-                <div class="opaque-overlay">&nbsp;</div>
-                <div class="row">
+            <div class="container-fluid promotions-container">
+                <div class="row d-none d-sm-block">
                     <div class="col-12">
-                        <section class="callout jumbotron text-center">
-                            <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
-                            <hr class="block-divider block-divider--orange">
-                            <p class="lead">Sign up today to start receiving the world's best whiskeys every month. 
-                            <s class="d-none d-sm-inline">€19.99</s>
-                            <span class="d-inline d-sm-none"><br></span>
-                            <strong><mark>First one is free!</mark></strong></p>
-                            <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-                            <p class="text-muted disclaimer"><small>You must be over 18 to sign up to our service. Please drink responsibly</small></p>
-                        </section>
+                        <div class="site-wide-promo alert alert-warning">
+                            <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="/">See here for details!</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- /CALLOUT -->
+            <!-- /PROMOTIONS -->
 
-            <!-- QUOTES -->
-            <div class="container quotes-container">
-                <section class="quotes">
-                    <div class="row">
-                        <div class="col-12 my-5">
-                            <h2 class="text-uppercase">Quotes:</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="media">
-                                <div class="d-none d-sm-block">
-                                    <img src="images/girl-image.png" alt="Image of Jane Doe" class="rounded-circle mr-3" height="100" width="100">
-                                </div>
-                                <div class="media-body">
-                                    <blockquote class="blockquote">
-                                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                                        <p>- Jane Doe</p>
-                                    </blockquote>
-                                </div>
+            <!--  NAVBAR  -->
+            <nav class="navbar navbar-dark navbar-expand-sm">
+                <a href="/" class="navbar-brand">Whiskey Drop</a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="active nav-item mr-2">
+                            <a href="/" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a href="/about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a href="#" class="dropdown-item">Irish</a>
+                                <a href="#" class="dropdown-item">Scotch</a>
+                                <a href="#" class="dropdown-item">Japanese</a>
+                                <a href="#" class="dropdown-item">American</a>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="media">
-                                <div class="d-none d-sm-block">
-                                    <img src="images/guy-image.png" alt="Image of John Doe" class="rounded-circle mr-3" height="100" width="100">
-                                </div>
-                                <div class="media-body">
-                                    <blockquote class="blockquote">
-                                        <p>I haven't been sober for months!</p>
-                                        <p>- John Doe</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                        </li>
+                        <li class="nav-item mr-2 d-block d-sm-none">
+                            <a href="/login" class="nav-link">Sign-In / Sign-Up</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-none d-md-block">
+                    <p class="navbar-text my-auto mr-2"><i>Great Whiskey delivered to your door!</i></p>
+                    <a href="/login" class="btn btn--cta btn--red">Sign-In / Sign-Up</a>
+                </div>
+            </nav>
+            <!--  /NAVBAR  -->
+        </div>
+
+        <!-- CALLOUT -->
+        <div class="container-fluid callout-container">
+            <div class="opaque-overlay">&nbsp;</div>
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                        <hr class="block-divider block-divider--orange">
+                        <p class="lead">Sign up today to start receiving the world's best whiskeys every month. 
+                            <s class="d-none d-sm-inline">€19.99</s>
+                            <span class="d-inline d-sm-none"><br></span>
+                            <strong class="d-block d-sm-inline">First one is free!</strong>
+                        </p>
+                        <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                        <p class="text-muted disclaimer"><small>You must be over 18 to sign up to our service. Please drink responsibly</small></p>
+                    </section>
+                </div>
             </div>
-            <!-- /QUOTES -->
+        </div>
+        <!-- /CALLOUT -->
 
-            <!-- FEATURES -->
-            <div class="container features-container">
-                <section class="features">
-                    <div class="row">
-                        <div class="col-12 my-5">
-                            <h2 class="text-uppercase">Features:</h2>
-                        </div>
+        <!-- QUOTES -->
+        <div class="container quotes-container">
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-12 my-5">
+                        <h2 class="text-uppercase">Quotes:</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="feature">
-                                <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/girl-image.png" alt="Image of Jane Doe" class="rounded-circle mr-3" height="100" width="100">
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="feature">
-                                <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
-                            </div>
-                        </div>
-                        <div class="col-12 d-md-none d-lg-block col-lg-4">
-                            <div class="feature">
-                                <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
-            <!-- /FEATURES -->
-
-            <!--  MONTHLY FAVOURITES  -->
-            <div class="container favourites-container">
-                <section class="favourites">
-                    <div class="row">
-                        <div class="col-12 my-5">
-                            <h2 class="text-uppercase">Monthly Favourites</h2>
-                        </div>            
-                    </div>
-                    <div class="row">
-                        <div class="col-12 mb-3">
-                            <p>Every month we provide a list of the top 5 whiskeys from all regions. This month's top 5 are:</p>
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/guy-image.png" alt="Image of John Doe" class="rounded-circle mr-3" height="100" width="100">
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I haven't been sober for months!</p>
+                                    <p>- John Doe</p>
+                                </blockquote>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Origin</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Jameson</td>
-                                        <td>Ireland</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Bushmills</td>
-                                        <td>Ireland</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Oban</td>
-                                        <td>Scotland</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Suntory Whisky Toki</td>
-                                        <td>Japan</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Jack Daniels</td>
-                                        <td>America</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                </div>
+            </section>
+        </div>
+        <!-- /QUOTES -->
+
+        <!-- FEATURES -->
+        <div class="container features-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 my-5">
+                        <h2 class="text-uppercase">Features:</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
                         </div>
                     </div>
-                </section>
-            </div>
-            <!--  /MONTHLY FAVOURITES -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- /FEATURES -->
 
-        <!-- </article> -->
-        <!--  /LANDING PAGE  -->
+        <!--  MONTHLY FAVOURITES  -->
+        <div class="container favourites-container">
+            <section class="favourites">
+                <div class="row">
+                    <div class="col-12 my-5">
+                        <h2 class="text-uppercase">Monthly Favourites</h2>
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <p>Every month we provide a list of the top 5 whiskeys from all regions. This month's top 5 are:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Origin</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Jameson</td>
+                                    <td>Ireland</td>
+                                </tr>
+                                <tr>
+                                    <td>Bushmills</td>
+                                    <td>Ireland</td>
+                                </tr>
+                                <tr>
+                                    <td>Oban</td>
+                                    <td>Scotland</td>
+                                </tr>
+                                <tr>
+                                    <td>Suntory Whisky Toki</td>
+                                    <td>Japan</td>
+                                </tr>
+                                <tr>
+                                    <td>Jack Daniels</td>
+                                    <td>America</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--  /MONTHLY FAVOURITES -->
 
         <!--  MODAL  -->
         <div class="modal" tabindex="-1" id="signUpModal">
