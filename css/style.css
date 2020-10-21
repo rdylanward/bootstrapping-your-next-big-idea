@@ -111,8 +111,10 @@ body {
     border-radius: 0.3rem;
     margin-bottom: 0px;
     padding: 0.5rem 1.5rem;
-    background-color: #eec802;
-    border-color: #eec802;
+    /* background-color: #eec802;
+    border-color: #eec802; */
+    background-color: #fff;
+    border-color: #fff;
 }
 
 .site-wide-promo strong {
@@ -159,10 +161,6 @@ body {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
-
-#navbarNavDropdown {    /** THIS DOES NOT WORK YET!! **/
-    opacity: 0.8; /**  Trying to set the opeacity of the dropdown menu  **/
-}                 /**  for mobiles so it stands out                     **/
 
 
 /*******************/
@@ -215,11 +213,11 @@ body {
 .initial-offer {
     /* color: #856404; */
     color: #f05f40;
-    background-color: #eec802;
-    border-color: #eec802;
+    background-color: #fff;
+    border-color: #fff;
     border-radius: 0.3rem;
     font-weight: bold;
-    padding: 0.3rem 0.6rem;
+    padding: 0.25rem 0.55rem;
     margin: 0.5rem 0px 0px 0.2rem;
 }
 
@@ -240,6 +238,24 @@ body {
 
 .quotes-container {}
 
+.media {
+    background-image: -webkit-linear-gradient(rgba(68, 68, 68, 0.6), rgba(68, 68, 68, 0.2));
+    background-image: linear-gradient(rgba(68, 68, 68, 0.6), rgba(68, 68, 68, 0.2));
+    border-radius: 0.4rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+.media img {
+    margin: 0px 1rem;
+}
+
+.media .blockquote {
+    padding: 0.6rem;
+    margin-bottom: 0px;
+}
+
 
 /********************/
 /****  FEATURES  ****/
@@ -251,7 +267,13 @@ body {
 
 .card {
     border: 0px;
+    border-radius: 0.4rem !important;
     box-shadow: 0.4rem 0.4rem 1.7rem rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
 }
 
 .card-title {
@@ -282,7 +304,8 @@ body {
     background-color: #fff;
     color: #f05f40;
     border-radius: 0.3rem;
-    padding: 0.2rem 0.3rem;
+    font-size: 1.1rem;
+    padding: 0.23rem 0.28rem 0.17rem 0.28rem;
     margin: 0px 0.2rem;
 }
 
@@ -311,4 +334,26 @@ body {
 /****  FAVOURITES  ****/
 /**********************/
 
-.favourites-container {}
+.favourites-container {
+    height: 100%;
+    background: url("../images/monthly_favourites.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+}
+
+.favourites p {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.favourites .table {
+    color: #fff;
+    font-size: 1.2rem;
+}
