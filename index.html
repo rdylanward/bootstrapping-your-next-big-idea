@@ -53,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="d-none d-md-block">
-                    <p class="navbar-text my-auto mr-2"><i>Great Whiskey delivered to your door!</i></p>
+                    <p class="navbar-text my-auto d-none d-lg-inline mr-2"><i>Great Whiskey delivered to your door!</i></p>
                     <a href="/login" class="btn btn--cta btn--red">Sign-In / Sign-Up</a>
                 </div>
             </nav>
@@ -71,10 +71,10 @@
                         <p class="lead">Sign up today to start receiving the world's best whiskeys every month. 
                             <s class="d-none d-sm-inline">€19.99</s>
                             <span class="d-inline d-sm-none"><br></span>
-                            <strong class="d-block d-sm-inline">First one is free!</strong>
+                            <span class="d-block d-sm-inline initial-offer">First one is free!</span>
                         </p>
                         <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-                        <p class="text-muted disclaimer"><small>You must be over 18 to sign up to our service. Please drink responsibly</small></p>
+                        <p class="text-muted disclaimer mt-lg-3"><small>You must be over 18 to sign up to our service. Please drink responsibly</small></p>
                     </section>
                 </div>
             </div>
@@ -87,7 +87,7 @@
                 <section class="quotes">
                     <div class="row">
                         <div class="col-12 page-header">
-                            <h2 class="text-uppercase">Quotes:</h2>
+                            <h2 class="text-uppercase">Testimonials</h2>
                             <hr class="block-divider block-divider--short block-divider--gray">
                         </div>
                     </div>
@@ -130,30 +130,39 @@
                 <section class="features">
                     <div class="row">
                         <div class="col-12 page-header">
-                            <h2 class="text-uppercase">Features:</h2>
-                            <hr class="block-divider block-divider--short block-divider--white">
+                            <h2 class="text-uppercase">Features</h2>
+                            <hr class="block-divider block-divider--short block-divider--gray">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="feature">
-                                <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="images/feature1.jpg" class="card-img-top" alt="Multiple bottles of Bullit Bourban">
+                                <div class="card-body feature">
+                                    <h5 class="card-title"><i class="fas fa-gift d-inline"></i> Feature 1 <span class="tag-new">NEW!</span></h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <a href="#" class="btn btn-sm btn-light">Read More</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="feature">
-                                <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
+                            <div class="card">
+                                <img src="images/feature2.jpg" class="card-img-top" alt="Two bottles of Bullit Bourban, a Cigar and a glass with ice">
+                                <div class="card-body feature">
+                                    <h5 class="card-title"><i class="fas fa-credit-card d-inline"></i> Feature 2</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <a href="#" class="btn btn-sm btn-light">Read More</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 d-md-none d-lg-block col-lg-4">
-                            <div class="feature">
-                                <h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
+                        <div class="col-12 col-md-6 col-lg-4 mb-2 mb-sm-0 d-md-none d-lg-inline">
+                            <div class="card">
+                                <img src="images/feature3.jpg" class="card-img-top" alt="Glass of Whiskey, a Cigar and a Cowboy Hat on a wooden floor">
+                                <div class="card-body feature">
+                                    <h5 class="card-title"><i class="fas fa-times-circle d-inline"></i> Feature 3</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <a href="#" class="btn btn-sm btn-light">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
